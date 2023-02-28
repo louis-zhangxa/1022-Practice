@@ -1,3 +1,3 @@
-# driving-game
+# 1022-Practices
 
-An HTML, CSS, and JavaScript driving game.
+Practices what learned in LFZ 1022
