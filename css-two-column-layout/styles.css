@@ -1,0 +1,45 @@
+.container {
+  font-family: karla, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-half {
+  flex-basis: 50%;
+  display: flex;
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.detail {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column-full h1,
+.column-full p {
+  text-align: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit button {
+  margin: 2rem;
+  border: 2px solid rgb(185, 76, 64);
+  padding: 5px 20px;
+  color: rgb(185, 76, 64);
+  background-color: transparent;
+}
