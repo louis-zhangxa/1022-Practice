@@ -1,0 +1,57 @@
+body {
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(214, 96, 84);
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+label {
+  font-weight: 300;
+  margin: 1rem 0 0.2rem;
+  display: block;
+  padding-left: 1rem;
+}
+
+input::placeholder {
+  padding-left: 0.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: rgb(135, 135, 135);
+}
+
+input,
+select {
+  font-size: large;
+  font-weight: lighter;
+  width: 100%;
+  padding: 16px 6px;
+  border-radius: 6px;
+  border: 1px solid rgb(215, 216, 216);
+}
+
+select {
+  background-color: rgb(241, 241, 241);
+}
+
+.submit {
+  width: 100%;
+  text-align: right;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 1rem;
+  color: white;
+  background-color: rgb(213, 93, 81);
+}
