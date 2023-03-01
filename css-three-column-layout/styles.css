@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(63, 138, 208);
+  font-family: Lato, sans-serif;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-thirds {
+  flex-basis: calc(100% / 3);
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.round {
+  width: 50%;
+  background-color: white;
+  border-radius: 10rem;
+  padding: 2.5rem;
+}
+
+img {
+  width: 100%;
+}
