@@ -1,0 +1,21 @@
+button {
+  padding: 6px 16px;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+table {
+  background-color: white;
+}
+
+thead {
+  color: white;
+  background-color: black;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
