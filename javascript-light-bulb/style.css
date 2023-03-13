@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.holder {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.shadow {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 18rem;
+  background-color: #0c0c0c;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch {
+  cursor: pointer;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 15rem;
+  border: none;
+  background-color: #222324;
+}
+
+.holder-bright {
+  background-color: #fef9f1;
+}
+
+.shadow-bright {
+  background-color: #fef7db;
+}
+
+.switch-on {
+  background-color: #fae985;
+}
