@@ -1,0 +1,25 @@
+.page {
+  width: 90%;
+  margin: auto;
+}
+
+.column {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.underline {
+  border-bottom: 2px black solid;
+}
+
+.text-right {
+  color: greenyellow;
+}
+
+.text-wrong {
+  color: red;
+  border-bottom: 2px red solid;
+}
